@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#profiel-img {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+#hobbies li {
+  margin-left: 170px;
+}
+
+#naam {
+  display: inline;
+}

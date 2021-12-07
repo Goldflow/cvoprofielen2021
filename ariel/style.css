@@ -1,0 +1,9 @@
+p{
+   color: rgb(245, 142, 8); font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: aqua;  background-color: blue;opacity:75%;
+}
+table, th, td {
+    border:1px solid black;
+  }

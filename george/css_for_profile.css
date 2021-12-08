@@ -1,7 +1,24 @@
 table {
-    border: 1px;
+    border: 10px;
     background-color: magenta;
 }
 h1 {
-     color: lightgoldenrodyellow;
+     color: red;
 }
+h2 {
+    background-color: lightskyblue;
+    width:9%;
+    font-style: italic;
+}
+h3 {
+    background-color: coral;
+    width: 9%;
+}
+#weeb {
+    color: red;
+    
+    font-size: 30px;
+}
+
+
+

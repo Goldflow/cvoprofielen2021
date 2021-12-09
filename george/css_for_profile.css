@@ -1,0 +1,71 @@
+
+
+h1 {
+     color: red;
+}
+h2 {
+    
+    width:9%;
+    font-style: italic;
+    color: white;
+}
+h3 {
+    background-color: white;
+    width: 9%;
+}
+#weeb {
+    color: white;
+    
+    font-size: 30px;
+}
+video {
+    width: 800px;
+    height: 500px;
+}
+.website {
+    font-size: x-large;
+    color: white;
+    
+}
+.dota {
+    color: white;
+    font-size: xx-large;
+}
+
+
+body { 
+    background-image: url(dbwabq9-817c2cc9-c4ef-4333-a753-46cdcd20e4cf.png);
+    background-size: 100%;
+}
+.game {
+    color: white; text-align: left; font-style: oblique;
+    font-size: x-large;
+}
+.category {
+    color: white;
+    text-decoration: underline;
+    font-size: large;
+}
+.songs {
+    color: white;
+    font-size: large;
+}
+.video {
+    position: absolute; bottom: 20px;
+    right: 50px;
+    
+}
+.onlangs {
+    color: white;
+    font-size: x-large;
+}
+table {
+    color: white;
+    font-size: x-large;
+}
+.grap {
+    color: white;
+    font-size: x-large;
+}
+
+

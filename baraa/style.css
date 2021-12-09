@@ -1,0 +1,29 @@
+h1 {
+    position: relative; left: 40%;
+    color: #f56a6a   
+
+}
+
+body { 
+    background-color: rgb(67, 98, 107);
+}
+span {
+    color: aqua;
+    font-size: 20px
+}
+p {
+    font-size: 15px;
+}
+ul {
+    mask-type: alpha;
+}
+div {
+    
+    width: 50%;
+    background-color: rgb(145, 197, 92);
+    background-image: url("foto-sander-claasen-1024x683.jpg");
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid rgba(255, 0, 0, 0.527);
+    
+}

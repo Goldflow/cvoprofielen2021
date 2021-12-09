@@ -1,0 +1,229 @@
+/* global */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  align-items: center
+}
+
+#profile {
+  text-align: left;
+}
+
+/* profile image, name, hobbies and quote section */
+#profile-img {
+  background-color: rgb(79, 79, 112);
+  border: 3px solid rgb(79, 79, 112);
+  transition: all 2s;
+  width: 150px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  /* pushes the horizontal line */
+}
+
+#profile-img:hover {
+  background-color: rgb(255, 103, 149);
+  border: 3px solid rgb(255, 103, 149);
+}
+
+#artstation-url {
+  text-decoration: none;
+  background-color: rgb(79, 79, 112);
+  color: white;
+  padding-inline: 8px;
+  border-radius: 3px;
+}
+
+#artstation-url:hover {
+  background-color: rgb(255, 103, 149);
+}
+
+h2 {
+  color: rgb(57, 57, 82);
+  font-size: 25px;
+  font-weight: bold;
+  display: inline;
+}
+
+h3 {
+  color: rgb(57, 57, 82);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* animating of javascript and python icons. just an experiment */
+.rotate {
+  width: 20px;
+  padding-left: 0px;
+  animation: rotation 10s infinite linear;
+}
+
+.rotate:hover {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* clears float left */
+hr {
+  background-color: rgb(79, 79, 112);
+  clear: left;
+}
+
+#games {
+  width: 900px;
+  margin: auto;
+}
+
+#games ul li {
+  margin: 5px;
+  display: inline-block;
+}
+
+#games img {
+  width: 250px;
+  filter: grayscale(1);
+  /* for animation on hover */
+  transition: all .3s ease-in-out;
+}
+
+#games img:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+#eten {
+  width: 900px;
+  margin: auto;
+}
+
+#eten ul li {
+  margin: 5px;
+  display: inline-block;
+}
+
+#eten img {
+  width: 250px;
+  /* filter: grayscale(1); */
+  /* for animation on hover */
+  transition: all .3s ease-in-out;
+}
+
+#eten img:hover {
+  /* filter: grayscale(0); */
+  transform: scale(1.05);
+}
+
+#books ul li {
+  margin: 5px;
+  display: inline-block;
+  /* overflow: hidden; */
+}
+
+/* setting up a zoom/scale animation */
+#books img {
+  height: 230px;
+  transition: all .3s ease-in-out;
+}
+
+#books img:hover {
+  transform: scale(1.05);
+}
+
+#audio {
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  margin-block-start: 30px;
+  margin-inline: auto;
+  /* if margin is not auto but any other value - the box goes to the left - FOLLOW THIS UP */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#audio h3 {
+  color: rgb(122, 122, 122);
+}
+
+#joke {
+  background-color: white;
+  width: 650px;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.youtube-video {
+  background-color: rgb(255, 255, 255);
+  width: 830px;
+  border-radius: 5px;
+  border: 0;
+}
+
+table {
+  margin-inline: auto;
+  /* if margin is not auto but any other value - the box goes to the left - FOLLOW THIS UP */
+}
+
+table td {
+  width: 410px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#color1 {
+  background-color: rgb(219, 189, 161);
+  color: rgb(148, 128, 110);
+}
+
+#color2 {
+  background-color: rgb(46, 138, 155);
+  color: rgb(29, 87, 97);
+}
+
+#color3 {
+  background-color: rgb(63, 55, 95);
+  color: rgb(116, 102, 172);
+}
+
+#color4 {
+  background-color: rgb(211, 79, 116);
+  color: rgb(139, 53, 78);
+}
+
+details {
+  background-color: white;
+  border: 1px solid rgb(57, 57, 82);
+  border-radius: 5px;
+  width: 830px;
+  height: 30px;
+  overflow-y: scroll;
+  margin: auto;
+  margin-block-end: 50px;
+}
+
+details[open] {
+  height: 250px;
+}
+
+details summary>span {
+  color: rgb(57, 57, 82);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ol {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: left;
+  margin: auto;
+  margin-block-end: 50px;
+}

@@ -113,13 +113,13 @@ hr {
 
 #eten img {
   width: 250px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   /* for animation on hover */
   transition: all .3s ease-in-out;
 }
 
 #eten img:hover {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
   transform: scale(1.05);
 }
 
@@ -151,6 +151,14 @@ hr {
 
 #audio h3 {
   color: rgb(122, 122, 122);
+}
+
+#joke {
+  background-color: white;
+  width: 650px;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5px;
 }
 
 ol {

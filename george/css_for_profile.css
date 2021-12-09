@@ -1,0 +1,35 @@
+
+}
+h1 {
+     color: red;
+}
+h2 {
+    background-color: lightskyblue;
+    width:9%;
+    font-style: italic;
+    color: red;
+}
+h3 {
+    background-color: coral;
+    width: 9%;
+}
+#weeb {
+    color: red;
+    
+    font-size: 30px;
+}
+video {
+    width: 800px;
+    height: 500px;
+}
+.website {
+    font-size: large;
+    text-decoration: underline;
+}
+.dota {
+    size: 3cm;
+    font-style: bold;
+}
+
+
+

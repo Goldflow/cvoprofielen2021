@@ -10,12 +10,12 @@ body {
     font-weight: bold;
 }
 
-.profiel-lijst a:hover {
+a:hover {
     background-color: blue;
     color: white;
 }
 
-.niet-goed a {
+a.niet-goed {
     color: gray;
     font-weight: normal;
     font-style: italic;

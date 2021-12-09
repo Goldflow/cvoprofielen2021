@@ -1,7 +1,7 @@
 /* global */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(230, 230, 230);
   text-align: center;
   align-items: center
 }
@@ -97,6 +97,28 @@ hr {
 }
 
 #games img:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+#eten {
+  width: 900px;
+  margin: auto;
+}
+
+#eten ul li {
+  margin: 5px;
+  display: inline-block;
+}
+
+#eten img {
+  width: 250px;
+  filter: grayscale(1);
+  /* for animation on hover */
+  transition: all .3s ease-in-out;
+}
+
+#eten img:hover {
   filter: grayscale(0);
   transform: scale(1.05);
 }

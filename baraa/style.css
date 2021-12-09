@@ -21,7 +21,7 @@ div {
     
     width: 50%;
     background-color: rgb(145, 197, 92);
-    background-image: url(../../html-oefeningen/Imge/foto-sander-claasen-1024x683.jpg);
+    background-image: url("foto-sander-claasen-1024x683.jpg");
     padding: 10px;
     margin: 10px;
     border: 10px solid rgba(255, 0, 0, 0.527);

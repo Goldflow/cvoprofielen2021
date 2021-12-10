@@ -201,29 +201,37 @@ table td {
 
 details {
   background-color: white;
-  border: 1px solid rgb(57, 57, 82);
+  /* border: 1px solid rgb(153, 153, 153); */
   border-radius: 5px;
-  width: 830px;
-  height: 30px;
-  overflow-y: scroll;
+  width: 810px;
   margin: auto;
   margin-block-end: 50px;
+  padding: 10px 10px;
 }
 
 details[open] {
-  height: 250px;
+  height: 300px;
 }
 
-details summary>span {
+/* details[open] summary {
+  border-bottom: 2px solid rgb(230, 230, 230);
+  margin-bottom: 10px;
+} */
+
+details summary {
   color: rgb(57, 57, 82);
   font-size: 20px;
   font-weight: bold;
+  margin: -10px -10px;
+  padding: 10px;
 }
 
 ol {
   background-color: rgb(255, 255, 255);
-  border-radius: 5px;
   text-align: left;
   margin: auto;
-  margin-block-end: 50px;
+  margin-block-end: 20px;
+  overflow-y: auto;
+  width: 95%;
+  height: 80%;
 }

@@ -1,2 +1,5 @@
 img.profiel {width: 200px; }
 video.vid { width:300px}
+p.bold {font-weight: bold;}
+table, th, td {border: 1px solid black;}
+body.center {text-align: center;}

@@ -3,7 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(230, 230, 230);
   text-align: center;
-  align-items: center
+  align-items: center;
+  color: rgb(29, 87, 97);
 }
 
 #profile {
@@ -224,6 +225,10 @@ details summary {
   font-weight: bold;
   margin: -10px -10px;
   padding: 10px;
+}
+
+details summary:hover {
+  cursor: pointer;
 }
 
 ol {

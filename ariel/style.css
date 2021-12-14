@@ -3,6 +3,7 @@ p{
 }
 h1{
   color: aqua;  background-color: blue;opacity:75%;
+  text-align: center;
 }
 table, th, td {
     border:1px solid black;
@@ -13,3 +14,13 @@ table, th, td {
   .table{
     padding: 100px;
   }
+  body{
+    background-color: burlywood;
+  }
+
+ img:hover{
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+ }
+ img src="b20.jfif" alt="">
+</a>"

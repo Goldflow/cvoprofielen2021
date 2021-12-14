@@ -3,7 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(230, 230, 230);
   text-align: center;
-  align-items: center
+  align-items: center;
+  color: rgb(29, 87, 97);
 }
 
 #profile {
@@ -161,23 +162,11 @@ hr {
   border-radius: 5px;
 }
 
-ol {
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  text-align: left;
-  width: 800px;
-  height: 200px;
-  margin: auto;
-  margin-block-end: 50px;
-  /* end of page */
-  padding-block: 20px;
-  overflow-y: scroll;
-}
-
 .youtube-video {
   background-color: rgb(255, 255, 255);
   width: 830px;
   border-radius: 5px;
+  border: 0;
 }
 
 table {
@@ -209,4 +198,45 @@ table td {
 #color4 {
   background-color: rgb(211, 79, 116);
   color: rgb(139, 53, 78);
+}
+
+details {
+  background-color: white;
+  /* border: 1px solid rgb(153, 153, 153); */
+  border-radius: 5px;
+  width: 810px;
+  margin: auto;
+  margin-block-end: 50px;
+  padding: 10px 10px;
+}
+
+details[open] {
+  height: 300px;
+}
+
+/* details[open] summary {
+  border-bottom: 2px solid rgb(230, 230, 230);
+  margin-bottom: 10px;
+} */
+
+details summary {
+  color: rgb(57, 57, 82);
+  font-size: 20px;
+  font-weight: bold;
+  margin: -10px -10px;
+  padding: 10px;
+}
+
+details summary:hover {
+  cursor: pointer;
+}
+
+ol {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  margin: auto;
+  margin-block-end: 20px;
+  overflow-y: auto;
+  width: 95%;
+  height: 80%;
 }

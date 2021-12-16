@@ -60,6 +60,7 @@ body {
 .onlangs {
     color: white;
     font-size: x-large;
+    
 }
 table {
     color: white;
@@ -83,12 +84,12 @@ li > h1 {
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: green;
-    padding: 30px;
+    padding: 10px;
     background-color: darkorange;
+    
 }
 .favoriete2 {
     background-color: darkorange;
     color: green;
     text-align: center;
 }
-

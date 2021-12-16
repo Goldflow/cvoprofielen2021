@@ -85,6 +85,10 @@ li > h1 {
     color: green;
     padding: 30px;
     background-color: darkorange;
-    background
+}
+.favoriete2 {
+    background-color: darkorange;
+    color: green;
+    text-align: center;
 }
 

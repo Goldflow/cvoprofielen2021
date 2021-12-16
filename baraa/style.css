@@ -11,19 +11,34 @@ span {
     color: aqua;
     font-size: 20px
 }
+#eten {
+position: relative; left: 20%;
+border: 6px solid rgb(247, 209, 163);
+margin: 4%;
+
+}
 p {
     font-size: 15px;
 }
 ul {
     mask-type: alpha;
 }
-div {
+.info {
     
+    background-color: #f2f2f2;
     width: 50%;
-    background-color: rgb(145, 197, 92);
     background-image: url("foto-sander-claasen-1024x683.jpg");
     padding: 10px;
     margin: 10px;
     border: 10px solid rgba(255, 0, 0, 0.527);
     
+    
+}
+img {
+border: 4px solid bisque;
+}
+
+
+iframe {
+    bottom: yityejd;
 }

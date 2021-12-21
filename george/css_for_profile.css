@@ -15,9 +15,9 @@ h3 {
 }
 #weeb {
     color: white;
-    
     font-size: 30px;
 }
+
 video {
     width: 800px;
     height: 500px;
@@ -60,7 +60,8 @@ body {
 .onlangs {
     color: white;
     font-size: x-large;
-    
+    list-style-type: none;
+
 }
 table {
     color: white;
@@ -94,4 +95,9 @@ li > h1 {
     background-color: darkorange;
     color: green;
     text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }

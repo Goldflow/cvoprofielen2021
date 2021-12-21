@@ -36,10 +36,12 @@ video {
 body { 
     background-image: url(dbwabq9-817c2cc9-c4ef-4333-a753-46cdcd20e4cf.png);
     background-size: 100%;
+
 }
 .game {
-    color: white; text-align: left; font-style: oblique;
+    color: blue; text-align: left; font-style: oblique;
     font-size: x-large;
+    text-align: center;
 }
 .category {
     color: white;
@@ -58,6 +60,7 @@ body {
 .onlangs {
     color: white;
     font-size: x-large;
+    
 }
 table {
     color: white;
@@ -66,6 +69,29 @@ table {
 .grap {
     color: white;
     font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color:orangered;
+    
 }
-
-
+summary {
+    text-align: center;
+    font-size: x-large;
+}
+li > h1 {
+    color: white;
+}
+.brs {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    padding: 10px;
+    background-color: darkorange;
+    
+}
+.favoriete2 {
+    background-color: darkorange;
+    color: green;
+    text-align: center;
+}

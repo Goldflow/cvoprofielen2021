@@ -5,192 +5,238 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <link rel="stylesheet" href="style.css">
   <title>Profiel Maxim</title>
 </head>
 
 <body>
-  <section id="profile">
-    <img id="profile-img" src="files/profiel-img.png" alt="Photo of Maxim Baraliuc">
-    <h2>Maxim Baraliuc</h2>
-    <span id="geboortedatum">(23 juni 1986)</span>
-    <h3>Hobbies:</h3>
-    <ul id="hobbies">
-      <li>leren coderen: <img class="rotate" src="files/python-icon.png" title="python" alt="Python Icon"> <img
-          class="rotate" src="files/javascript-icon.png" title="javascript" alt="JavaScript Icon"> </li>
-      <li>het lezen van voornamelijk <strong>sci-fi</strong> boeken</li>
-      <li>hardlopen - eigen record <strong>20 km</strong></li>
-      <li>soms tekenen - check <a id="artstation-url" href="https://mbaraliuc.artstation.com/"
-          title="page on artstation.com" target="_blank">profiel</a> </li>
+  <nav>
+    <ul class="navbar">
+      <li><a href="#profile">Me</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#food">Food</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#colors">Colors</a></li>
+      <li><a href="#joke">Joke</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#audio">Audio</a></li>
+      <li><a href="#spoiler">Spoiler</a></li>
     </ul>
-    <p><q cite="https://www.goodreads.com/quotes/599816-a-man-doesn-t-know-what-he-knows-until-he-knows">A man
-        doesn't know what he knows until he knows what he doesn't know.</q> by <em>Laurence J. Peter</em></p>
-  </section>
+  </nav>
 
-  <hr>
+  <header>
+    <section class="profile">
+      <img class="profile-img" src="files/profiel-img.png" alt="Photo of Maxim Baraliuc">
 
-  <section id="books">
-    <h3>Boeken</h3>
-    <p><em>recent gelezen boeken of ik ben nu aan het lezen</em></p>
-    <ul>
-      <li><a href="https://www.goodreads.com/book/show/45244.Judas_Unchained" title="go to goodreads.com book page"><img
-            class="contain" src="files/judas-unchained.jpg" alt="judas unchained book cover"></a></li>
-      <li><a href="https://www.goodreads.com/book/show/89187.Revelation_Space"
-          title="go to goodreads.com book page"><img class="contain" src="files/revelation-space.jpg"
-            alt="revelation space book cover"></a></li>
-      <li><a href="https://www.goodreads.com/book/show/17250961-oathbringer" title="go to goodreads.com book page"><img
-            class="contain" src="files/oathbringer.jpg" alt="oathbringer book cover"></a></li>
-      <li><a href="https://www.goodreads.com/book/show/50611580-laws-of-ux" title="go to goodreads.com book page"> <img
-            class="contain" src="files/laws-of-ux.jpg" alt="laws of ux book cover"></a></li>
-      <li><a href="https://www.goodreads.com/book/show/39380368-eloquent-javascript"
-          title="go to goodreads.com book page"><img class="contain" src="files/eloquent-javascript.jpg"
-            alt="eloquent javascript book cover"></a></li>
-    </ul>
-  </section>
-  <br>
+      <h2 id="profile">Maxim Baraliuc</h2>
+      <span>(23 juni 1986)</span>
 
-  <section id="eten">
-    <h3>Lievelingseten</h3>
-    <ul>
-      <li><a href="https://www.marthastewart.com/313108/triple-chocolate-cheesecake" title="go to recipe page"><img
-            src="files/choco-cheesecake.jpg" alt="triple chocolate cheesecake on a plate"></a></li>
-      <li><a href="https://www.marthastewart.com/869987/marthas-favorite-tarte-tatin" title="go to recipe page"><img
-            src="files/tarte-tatin.jpg" alt="tarte tatin on a table"></a></li>
-      <li><a href="https://www.marthastewart.com/911343/thick-burger" title="go to recipe page"><img
-            src="files/burger.jpg" alt="image of a burger on beige background"></a></li>
-      <li><a href="https://www.marthastewart.com/1122178/french-fries" title="go to recipe page"><img
-            src="files/fries.jpg" alt="french fries on plate prepared and not"></a></li>
-      <li><a href="https://www.marthastewart.com/335089/simple-crepes" title="go to recipe page"><img
-            src="files/crepes.jpg" alt="crepes on a plate"></a></li>
-    </ul>
+      <h3>Hobbies:</h3>
+      <ul class="hobbies">
+        <li>leren coderen:
+          <img class="rotate" src="files/python-icon.png" title="python" alt="Python Icon">
+          <img class="rotate" src="files/javascript-icon.png" title="javascript" alt="JavaScript Icon">
+        </li>
+        <li>het lezen van voornamelijk <strong>sci-fi</strong> boeken</li>
+        <li>hardlopen - eigen record <strong>20 km</strong></li>
+        <li>soms tekenen - check <a class="art-link" href="https://mbaraliuc.artstation.com/"
+            title="page on artstation.com" target="_blank">profiel</a> </li>
+      </ul>
+      <p><q cite="https://www.goodreads.com/quotes/599816-a-man-doesn-t-know-what-he-knows-until-he-knows">A man
+          doesn't know what he knows until he knows what he doesn't know.</q> <br> by <em>Laurence J. Peter</em></p>
+    </section>
+  </header>
 
-  </section>
-  <br>
+  <main>
 
-  <section id="games">
-    <h3>Games - gespeeld door de jaren heen</h3>
-    <p><em>gedenkwaardig gamedesign, artwork of gameplay</em></p>
-    <ul>
-      <li><a href="https://store.steampowered.com/app/480490/Prey/" title="go to steam page"><img src="files/prey.jpg"
-            alt="prey game banner"></a></li>
-      <li><a href="https://store.steampowered.com/app/21680/Bionic_Commando_Rearmed/" title="go to steam page"><img
-            src="files/bionic-commando-rearmed.jpg" alt="bionic commando rearmed game banner"></a></li>
-      <li><a href="https://store.steampowered.com/app/385560/Shadow_Complex_Remastered/" title="go to steam page"><img
-            src="files/shadow-complex.jpg" alt="shadow complex game banner"></a></li>
-      <li><a href="https://store.steampowered.com/app/205100/Dishonored/" title="go to steam page"><img
-            src="files/dishonored.jpg" alt="dishonored game banner"></a></li>
-      <li><a href="https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/"
-          title="go to steam page"><img src="files/batman-arkham-asylum.jpg" alt="batman arkham game banner"></a></li>
-    </ul>
-  </section>
-  <br>
+    <section class="img-collection">
 
-  <h3>Lievelingskleuren</h3>
-  <table>
-    <tr>
-      <td id="color1">#dbbda1</td>
-      <td id="color2">#2e8a9b</td>
-    </tr>
-    <tr>
-      <td id="color3">#3f375f</td>
-      <td id="color4">#d34f74</td>
-    </tr>
-  </table>
-  <br>
+      <div class="books">
+        <h3 id="books">Boeken</h3>
+      </div>
 
-  <h3>A joke</h3>
-  <p id="joke">Apparently, someone in London gets stabbed every 52 seconds. Poor bastard.</p>
-  <br>
+      <p><em>recent gelezen boeken of ik ben nu aan het lezen</em></p>
+      <ul>
+        <li><a href="https://www.goodreads.com/book/show/45244.Judas_Unchained"
+            title="go to goodreads.com book page"><img class="contain" src="files/judas-unchained.jpg"
+              alt="judas unchained book cover"></a></li>
+        <li><a href="https://www.goodreads.com/book/show/89187.Revelation_Space"
+            title="go to goodreads.com book page"><img class="contain" src="files/revelation-space.jpg"
+              alt="revelation space book cover"></a></li>
+        <li><a href="https://www.goodreads.com/book/show/17250961-oathbringer"
+            title="go to goodreads.com book page"><img class="contain" src="files/oathbringer.jpg"
+              alt="oathbringer book cover"></a></li>
+        <li><a href="https://www.goodreads.com/book/show/50611580-laws-of-ux" title="go to goodreads.com book page">
+            <img class="contain" src="files/laws-of-ux.jpg" alt="laws of ux book cover"></a></li>
+        <li><a href="https://www.goodreads.com/book/show/39380368-eloquent-javascript"
+            title="go to goodreads.com book page"><img class="contain" src="files/eloquent-javascript.jpg"
+              alt="eloquent javascript book cover"></a></li>
+      </ul>
+    </section>
 
-  <h3>Universe Size Comparison</h3>
-  <iframe class="youtube-video" width="800" height="450" src="https://www.youtube.com/embed/02Kgf9dCgME?start=9"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <br>
+    <section class="img-collection">
 
-  <div id="audio">
-    <h3>Spelen in verschrikkelijke situaties</h3>
-    <audio controls>
-      <source src="files/nooo.mp3" type="audio/mp3">
-      <p>Your browser doesn't support HTML5 audio. Here is a <a href="files/nooo.mp3">link to the audio</a> instead.</p>
-    </audio>
-  </div>
-  <br>
+      <div class="food">
+        <h3 id="food">Favoriete eten</h3>
+      </div>
 
-  <details>
-    <summary>
-      <span>40 Meest interessante onbekende feiten:</span>
-    </summary><br>
-    <ol>
-      <li>Heet water verandert sneller in ijs dan koud water.</li>
-      <li>De Mona Lisa heeft geen wenkbrauwen.</li>
-      <li>De zin, "The quick brown fox jumps over the lazy dog" gebruikt elke letter in de Engelse taal.</li>
-      <li>De sterkste spier in het lichaam is de tong.</li>
-      <li>Ant's rusten ongeveer 8 minuten in een periode van 12 uur.</li>
-      <li>Coca-Cola was oorspronkelijk groen.</li>
-      <li>De meest voorkomende naam ter wereld is Mohammed.</li>
-      <li>Als de maan recht boven je hoofd staat, weeg je iets minder.</li>
-      <li>Kamelen hebben drie oogleden om zichzelf te beschermen tegen het opwaaiende woestijnzand.</li>
-      <li>De naam van alle continenten eindigen met dezelfde letter waarmee ze beginnen.</li>
-      <li>Min 40 graden Celsius is precies hetzelfde als min 40 graden Fahrenheit.</li>
-      <li>Chocolade kan honden doden, omdat het theobromine bevat, dat hun hart en zenuwstelsel aantast.</li>
-      <li>Vrouwen knipperen bijna twee keer zoveel als mannen!</li>
-      <li>Je kunt jezelf niet doden door je adem in te houden.</li>
-      <li>Het is onmogelijk om aan je elleboog te likken.</li>
-      <li>Het Guinness Book of Records heeft het record als het boek dat het vaakst wordt gestolen uit openbare
-        bibliotheken.
-      </li>
-      <li>Mensen zeggen "Bless you" als je niest, want als je niest, stopt je hart voor een milliseconde.</li>
-      <li>Het is fysiek onmogelijk voor varkens om naar de lucht te kijken</li>
-      <li>De "sixth sick sheik's sixth sheep's sick" zou de moeilijkste tongbreker in de Engelse taal zijn.</li>
-      <li>Als u te hard niest, kunt u een rib breken. Als u een niesbui probeert te onderdrukken, kunt u een bloedvat
-        in
-        uw
-        hoofd of nek scheuren en overlijden.</li>
-      <li>Each king in a deck of playing cards represents great king from history.
-        <ul>
-          <li>Spades - King David</li>
-          <li>Clubs - Alexander the Great,</li>
-          <li>Hearts - Charlemagne</li>
-          <li>Diamonds - Julius Caesar.</li>
-        </ul>
-      </li>
-      <li>Het is onmogelijk om aan je elleboog te likken.</li>
-      <li>111.111.111 x 111.111.111 = 12.345.678.987.654.321</li>
-      <li>Als een standbeeld van een persoon in het park op een paard beide voorbenen in de lucht heeft, is de persoon
-        omgekomen in de strijd.
-        Als het paard één voorbeen in de lucht heeft, stierf de persoon als gevolg van verwondingen die hij in de
-        strijd
-        had
-        opgelopen.
-        Als het paard alle vier de benen op de grond heeft, is de persoon een natuurlijke dood gestorven.</li>
-      <li>Wat hebben kogelwerende vesten, brandtrappen, ruitenwissers en laserprinters met elkaar gemeen?
-        antw. - Allemaal uitgevonden door vrouwen.</li>
-      <li>Een krokodil kan zijn tong niet uitsteken.</li>
-      <li>Een slak kan drie jaar slapen.</li>
-      <li>Alle ijsberen zijn linkshandig.</li>
-      <li>American Airlines bespaarde in 1987 $ 40.000 door één olijf te elimineren uit elke salade die in eersteklas
-        werd
-        geserveerd.</li>
-      <li>Vlinders proeven met hun voeten.</li>
-      <li>Olifanten zijn de enige dieren die niet kunnen springen.</li>
-      <li>In de afgelopen 4000 jaar zijn er geen nieuwe dieren gedomesticeerd.</li>
-      <li>Mensen zijn gemiddeld meer bang voor spinnen dan voor de dood.</li>
-      <li>De elektrische stoel is uitgevonden door een tandarts.</li>
-      <li>Ratten vermenigvuldigen zich zo snel dat in 18 maanden twee ratten meer dan miljoen nakomelingen kunnen
-        hebben.
-      </li>
-      <li>Als u slechts een uur een hoofdtelefoon draagt, neemt het aantal bacteriën in uw oor 700 keer toe</li>
-      <li>De meeste lippenstift bevat vissenschubben.</li>
-      <li>Net als vingerafdrukken is de tongafdruk van iedereen anders</li>
-      <li>99% van de mensen die dit lezen zullen hun elleboog proberen te likken</li>
-      <li>98% van de mensen die dit lezen, weet het niet Wat is SEO?</li>
-    </ol>
-  </details>
+      <ul>
+        <li><a href="https://www.marthastewart.com/313108/triple-chocolate-cheesecake" title="go to recipe page"><img
+              src="files/choco-cheesecake.jpg" alt="triple chocolate cheesecake on a plate"></a></li>
+        <li><a href="https://www.marthastewart.com/869987/marthas-favorite-tarte-tatin" title="go to recipe page"><img
+              src="files/tarte-tatin.jpg" alt="tarte tatin on a table"></a></li>
+        <li><a href="https://www.marthastewart.com/911343/thick-burger" title="go to recipe page"><img
+              src="files/burger.jpg" alt="image of a burger on beige background"></a></li>
+        <li><a href="https://www.marthastewart.com/1122178/french-fries" title="go to recipe page"><img
+              src="files/fries.jpg" alt="french fries on plate prepared and not"></a></li>
+        <li><a href="https://www.marthastewart.com/335089/simple-crepes" title="go to recipe page"><img
+              src="files/crepes.jpg" alt="crepes on a plate"></a></li>
+      </ul>
+    </section>
+
+    <section class="img-collection">
+
+      <div class="games">
+        <h3 id="games">Games</h3>
+      </div>
+
+      <p><em>gedenkwaardig gamedesign, artwork of gameplay</em></p>
+      <ul>
+        <li><a href="https://store.steampowered.com/app/480490/Prey/" title="go to steam page"><img src="files/prey.jpg"
+              alt="prey game banner"></a></li>
+        <li><a href="https://store.steampowered.com/app/21680/Bionic_Commando_Rearmed/" title="go to steam page"><img
+              src="files/bionic-commando-rearmed.jpg" alt="bionic commando rearmed game banner"></a></li>
+        <li><a href="https://store.steampowered.com/app/385560/Shadow_Complex_Remastered/" title="go to steam page"><img
+              src="files/shadow-complex.jpg" alt="shadow complex game banner"></a></li>
+        <li><a href="https://store.steampowered.com/app/205100/Dishonored/" title="go to steam page"><img
+              src="files/dishonored.jpg" alt="dishonored game banner"></a></li>
+        <li><a href="https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/"
+            title="go to steam page"><img src="files/batman-arkham-asylum.jpg" alt="batman arkham game banner"></a></li>
+      </ul>
+    </section>
+
+    <section class="colors">
+      <h3 id="colors">Kleuren</h3>
+      <table>
+        <tr>
+          <td class="color1">#dbbda1</td>
+          <td class="color2">#2e8a9b</td>
+        </tr>
+        <tr>
+          <td class="color3">#3f375f</td>
+          <td class="color4">#d34f74</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="joke">
+      <h3 id="joke">A joke</h3>
+      <p>Apparently, someone in London gets stabbed every 52 seconds. Poor bastard.</p>
+    </section>
+
+    <section class="video">
+      <h3 id="video">Video</h3>
+      <iframe class="youtube-video" width="800" height="450" src="https://www.youtube.com/embed/02Kgf9dCgME?start=9"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+
+    <section class="audio">
+      <h3 id="audio">Audio</h3>
+      <audio controls>
+        <source src="files/nooo.mp3" type="audio/mp3">
+        <p>Your browser doesn't support HTML5 audio. Here is a <a href="files/nooo.mp3">link to the audio</a> instead.
+        </p>
+      </audio>
+    </section>
+
+    <section class="spoiler">
+      <h3 id="spoiler">List</h3>
+      <details>
+        <summary>
+          <span>40 meest interessante onbekende feiten:</span>
+        </summary><br>
+        <ol>
+          <li>Heet water verandert sneller in ijs dan koud water.</li>
+          <li>De Mona Lisa heeft geen wenkbrauwen.</li>
+          <li>De zin, "The quick brown fox jumps over the lazy dog" gebruikt elke letter in de Engelse taal.</li>
+          <li>De sterkste spier in het lichaam is de tong.</li>
+          <li>Ant's rusten ongeveer 8 minuten in een periode van 12 uur.</li>
+          <li>Coca-Cola was oorspronkelijk groen.</li>
+          <li>De meest voorkomende naam ter wereld is Mohammed.</li>
+          <li>Als de maan recht boven je hoofd staat, weeg je iets minder.</li>
+          <li>Kamelen hebben drie oogleden om zichzelf te beschermen tegen het opwaaiende woestijnzand.</li>
+          <li>De naam van alle continenten eindigen met dezelfde letter waarmee ze beginnen.</li>
+          <li>Min 40 graden Celsius is precies hetzelfde als min 40 graden Fahrenheit.</li>
+          <li>Chocolade kan honden doden, omdat het theobromine bevat, dat hun hart en zenuwstelsel aantast.</li>
+          <li>Vrouwen knipperen bijna twee keer zoveel als mannen!</li>
+          <li>Je kunt jezelf niet doden door je adem in te houden.</li>
+          <li>Het is onmogelijk om aan je elleboog te likken.</li>
+          <li>Het Guinness Book of Records heeft het record als het boek dat het vaakst wordt gestolen uit openbare
+            bibliotheken.
+          </li>
+          <li>Mensen zeggen "Bless you" als je niest, want als je niest, stopt je hart voor een milliseconde.</li>
+          <li>Het is fysiek onmogelijk voor varkens om naar de lucht te kijken</li>
+          <li>De "sixth sick sheik's sixth sheep's sick" zou de moeilijkste tongbreker in de Engelse taal zijn.</li>
+          <li>Als u te hard niest, kunt u een rib breken. Als u een niesbui probeert te onderdrukken, kunt u een
+            bloedvat
+            in
+            uw
+            hoofd of nek scheuren en overlijden.</li>
+          <li>Each king in a deck of playing cards represents great king from history.
+            <ul>
+              <li>Spades - King David</li>
+              <li>Clubs - Alexander the Great,</li>
+              <li>Hearts - Charlemagne</li>
+              <li>Diamonds - Julius Caesar.</li>
+            </ul>
+          </li>
+          <li>Het is onmogelijk om aan je elleboog te likken.</li>
+          <li>111.111.111 x 111.111.111 = 12.345.678.987.654.321</li>
+          <li>Als een standbeeld van een persoon in het park op een paard beide voorbenen in de lucht heeft, is de
+            persoon
+            omgekomen in de strijd.
+            Als het paard één voorbeen in de lucht heeft, stierf de persoon als gevolg van verwondingen die hij in de
+            strijd
+            had
+            opgelopen.
+            Als het paard alle vier de benen op de grond heeft, is de persoon een natuurlijke dood gestorven.</li>
+          <li>Wat hebben kogelwerende vesten, brandtrappen, ruitenwissers en laserprinters met elkaar gemeen?
+            antw. - Allemaal uitgevonden door vrouwen.</li>
+          <li>Een krokodil kan zijn tong niet uitsteken.</li>
+          <li>Een slak kan drie jaar slapen.</li>
+          <li>Alle ijsberen zijn linkshandig.</li>
+          <li>American Airlines bespaarde in 1987 $ 40.000 door één olijf te elimineren uit elke salade die in
+            eersteklas
+            werd
+            geserveerd.</li>
+          <li>Vlinders proeven met hun voeten.</li>
+          <li>Olifanten zijn de enige dieren die niet kunnen springen.</li>
+          <li>In de afgelopen 4000 jaar zijn er geen nieuwe dieren gedomesticeerd.</li>
+          <li>Mensen zijn gemiddeld meer bang voor spinnen dan voor de dood.</li>
+          <li>De elektrische stoel is uitgevonden door een tandarts.</li>
+          <li>Ratten vermenigvuldigen zich zo snel dat in 18 maanden twee ratten meer dan miljoen nakomelingen kunnen
+            hebben.
+          </li>
+          <li>Als u slechts een uur een hoofdtelefoon draagt, neemt het aantal bacteriën in uw oor 700 keer toe</li>
+          <li>De meeste lippenstift bevat vissenschubben.</li>
+          <li>Net als vingerafdrukken is de tongafdruk van iedereen anders</li>
+          <li>99% van de mensen die dit lezen zullen hun elleboog proberen te likken</li>
+          <li>98% van de mensen die dit lezen, weet het niet Wat is SEO?</li>
+        </ol>
+      </details>
+    </section>
+
+    <section class="logo-animation">
+      <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_cnr8rzsr.json" background="transparent"
+        speed="1" style="width: 800px; height: 600px" loop autoplay>
+      </lottie-player>
+    </section>
 
 
-
+  </main>
 </body>
 
 </html>

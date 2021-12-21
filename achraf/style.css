@@ -1,0 +1,37 @@
+h1{
+    color: rgb(9, 124, 190);
+    background-color: black;
+    text-align: center;
+}
+li{
+    color: blue;
+}
+body{
+    background-color: lightblue;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h2{
+      text-align: center;
+  }
+  img{
+      width: 400px;
+
+  }
+  .netflix-img {
+    height: 40px;
+    width: 40px;
+  }

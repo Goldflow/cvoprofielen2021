@@ -6,3 +6,4 @@ h1 {
 p {
     color: crimson;
 }
+p.solid {border-style: solid;}

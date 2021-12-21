@@ -6,3 +6,8 @@ h1 {
 p {
     color: crimson;
 }
+p.solid {border-style: solid;}
+
+body{
+    background-color: rgb(150, 10, 10);
+}

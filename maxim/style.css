@@ -16,6 +16,10 @@ body {
   max-width: 55em;
 }
 
+section {
+  margin-bottom: 10rem;
+}
+
 main {
   text-align: center;
 }
@@ -311,7 +315,6 @@ details {
   border-radius: 5px;
   width: 53rem;
   margin: 0 auto;
-  margin-block-end: 5rem;
   /* Space at bottom of the page */
   padding: 1rem 1rem;
 }
@@ -319,11 +322,6 @@ details {
 details[open] {
   height: 25rem;
 }
-
-/* details[open] summary {
-    border-bottom: 2px solid rgb(230, 230, 230);
-    margin-bottom: 10px;
-  } */
 
 details summary {
   color: rgb(57, 57, 82);
@@ -338,17 +336,18 @@ details summary:hover {
 }
 
 ol {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   text-align: left;
-  /* margin: 0 auto; */
-  /* margin-block-end: 20px; */
   overflow-y: auto;
   width: 95%;
   height: 80%;
 }
 
+/* =========== */
+/* LOTTIEFILES */
+/* =========== */
+
 .logo-animation {
   width: 50rem;
-  /* border: 1px solid black; */
   margin: 0 auto;
 }

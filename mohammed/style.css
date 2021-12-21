@@ -1,3 +1,9 @@
-body{
-    background-color: aqua;
-}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+  img {
+      width: 400px;
+  }
+  

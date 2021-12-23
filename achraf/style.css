@@ -57,3 +57,10 @@ img:hover {
   filter: grayscale(0%);                
 }
 
+.eten {
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+  text-align: center;
+}

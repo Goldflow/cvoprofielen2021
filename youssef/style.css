@@ -48,7 +48,7 @@ table.customTable td, table.customTable th {
 
 table.customTable thead {
 
-    background-color: #ffffff;
+    background-color: #dddddd;
 
 }
 
@@ -65,6 +65,13 @@ table.customTable thead {
 
 }
 
+.slow {
+
+    border: 10px solid #555;
+    border-color: #b65454;
+
+}
+
 .customTable {
 
     margin-left: auto;
@@ -72,12 +79,6 @@ table.customTable thead {
 
 }
 
-.slow {
-
-    border: 10px solid #555;
-    border-color: #b65454;
-
-}
 
 h3 {
 
@@ -119,4 +120,19 @@ p {
 .couscouskip {
     width: 450px; 
     height: 374.902px;
+    
+    
 }
+
+.lol {
+  
+    justify-content: center;
+    display: flex;
+  }
+
+  .soso {
+  
+    justify-content: center;
+    display: flex;
+  }
+

@@ -12,6 +12,7 @@ h2 {
   background-color: antiquewhite;
 }
 
+
 h3 {
   position: relative;
   left: 40%;
@@ -40,14 +41,7 @@ div table {
   margin-left: 35px;
 }
 
-.info {
-  background-color: #f2f2f2;
-  width: 50%;
-  background-image: url("foto-sander-claasen-1024x683.jpg");
-  padding: 10px;
-  margin: 10px;
-  border: 10px solid rgba(255, 0, 0, 0.527);
-}
+
 
 span {
   color: aqua;
@@ -68,6 +62,19 @@ img {
   justify-content: space-around;
 }
 
+
+
+.img-none {
+  display: none;
+}
+.img-none:hover  {
+  display: block;
+}
+
+/* .img-dispay:hover .img-none {
+  display: block;
+} */
+
 .iframe {
   margin-top: 30px;
   display: flex;
@@ -79,6 +86,14 @@ img {
   margin-left: 40px;
   margin-top: 30px;
   padding: 30px;
+  cursor: grab;
+  filter: grayscale(0);
+  transition: filter 0.5s;
+}
+
+.table:hover {
+  filter: grayscale(1);
+
 }
 
 .joke {
@@ -87,3 +102,35 @@ img {
   padding: 8px;
   margin-left: 20px;
 }
+.info {
+  background-color: #f2f2f2;
+  width: 50%;
+  background-image: url("foto-sander-claasen-1024x683.jpg");
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid rgba(255, 0, 0, 0.527);
+  transform: scale(1) rotate3d(1,1,1, 0deg) ;
+  transition: all 1s;
+}
+
+.info:hover {
+  transform: scale(1.7) rotate3d(1,1,1, 360deg) ;
+}
+
+
+
+
+
+
+
+
+
+
+/* .profile-photo {
+  transform: scale(1) rotate3d(1,1,1, 0deg) ;
+  transition: all 1s;
+} */
+/* .profile-photo:hover {
+  transform: rotate3d(1,1,1, 360deg) scale(1.5);
+  mask-image: url();
+} */

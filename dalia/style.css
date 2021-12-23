@@ -1,5 +1,9 @@
 img.profiel {width: 200px; }
 video.vid { width:300px}
 p.bold {font-weight: bold;}
-table, th, td {border: 1px solid black;}
-body.center {text-align: center;}
+table, th, td {border: 1px solid black; }
+body {background-color:aliceblue;}
+h1 {background-color: black; color:whitesmoke; font-size: 70px; padding:20px; width: 400px}
+div {background-color: teal; width: 600px}
+th {background-color: rebeccapurple; color: seashell;}
+td {background-color: silver;}

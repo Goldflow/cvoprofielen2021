@@ -1,3 +1,69 @@
-.p{
-    
+body {
+  background-color: black;
+  background-image: url(ash.jpg) ;
 }
+
+
+
+.kop{
+  
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color :#ee1414;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(167, 114, 114, 0.12), 0 1px 2px rgba(231, 144, 144, 0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #2ac0935e;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(219, 166, 166, 0.12), 0 1px 2px rgba(126, 192, 99, 0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #9c4848;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: rgb(209, 131, 131);
+  padding: 40px;
+  text-align: center;
+} 
+
+.head>
+ .style>
+  table, th, td {
+    border: 10px solid rgb(204, 70, 110);
+    color: blanchedalmond;
+  }
+  
+  table {
+    width: 100%;
+  }
+
+
+ 

@@ -15,12 +15,15 @@ h3 {
 }
 #weeb {
     color: white;
-    
     font-size: 30px;
 }
+
 video {
-    width: 800px;
-    height: 500px;
+    width: 70%;
+    height: auto;
+    bottom:200px;
+    right: -30%;
+    position: relative;
 }
 .website {
     font-size: x-large;
@@ -60,6 +63,7 @@ body {
 .onlangs {
     color: white;
     font-size: x-large;
+    list-style-type: none;    
 }
 table {
     color: white;
@@ -70,6 +74,8 @@ table {
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color:orangered;
+    
 }
 summary {
     text-align: center;
@@ -83,12 +89,46 @@ li > h1 {
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: green;
-    padding: 30px;
+    padding: 10px;
     background-color: darkorange;
+    
 }
 .favoriete2 {
     background-color: darkorange;
     color: green;
     text-align: center;
 }
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+img {    
+    width: 349px;
+    height: 349px;
+    opacity: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 10px;
+}
+img:hover {
+    opacity: 0%;
+}
+.after {
+    width: 349px;
+    height: 349px;
+position: absolute;
+top: 0;
+left:0;
+padding: 10px;
+border: 10px;
+opacity: 0%;
+}
+.after:hover {
+    opacity: 100%;
+}
+
+
 

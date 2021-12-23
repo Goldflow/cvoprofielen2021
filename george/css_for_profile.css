@@ -15,12 +15,15 @@ h3 {
 }
 #weeb {
     color: white;
-    
     font-size: 30px;
 }
+
 video {
-    width: 800px;
-    height: 500px;
+    width: 70%;
+    height: auto;
+    bottom:200px;
+    right: -30%;
+    position: relative;
 }
 .website {
     font-size: x-large;
@@ -60,7 +63,7 @@ body {
 .onlangs {
     color: white;
     font-size: x-large;
-    
+    list-style-type: none;    
 }
 table {
     color: white;
@@ -95,3 +98,37 @@ li > h1 {
     color: green;
     text-align: center;
 }
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+img {    
+    width: 349px;
+    height: 349px;
+    opacity: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 10px;
+}
+img:hover {
+    opacity: 0%;
+}
+.after {
+    width: 349px;
+    height: 349px;
+position: absolute;
+top: 0;
+left:0;
+padding: 10px;
+border: 10px;
+opacity: 0%;
+}
+.after:hover {
+    opacity: 100%;
+}
+
+
+

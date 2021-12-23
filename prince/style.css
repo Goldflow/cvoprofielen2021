@@ -4,10 +4,19 @@ h1 {
     background-color: brown;
 }
 p {
-    color: crimson;
+    color: #fba1b2;
 }
 p.solid {border-style: solid;}
 
 body{
     background-color: rgb(150, 10, 10);
 }
+img:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+
+
+        table, th, td {
+            border: brown;
+        }

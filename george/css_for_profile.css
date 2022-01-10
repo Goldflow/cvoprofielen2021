@@ -103,28 +103,25 @@ ul {
     padding: 20px;
     margin: 0;
 }
-img {    
+.profileimg {
     width: 349px;
     height: 349px;
-    opacity: 100%;
     position: relative;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    border: 10px;
+
 }
-img:hover {
-    opacity: 0%;
-}
+
+
+
+
 .after {
-    width: 349px;
-    height: 349px;
-position: absolute;
-top: 0;
-left:0;
-padding: 10px;
-border: 10px;
-opacity: 0%;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px;
+    margin: 1px;
+    border: 10px;
+    opacity: 0%;
 }
 .after:hover {
     opacity: 100%;

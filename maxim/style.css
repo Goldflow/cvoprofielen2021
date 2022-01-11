@@ -10,18 +10,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(230, 230, 230);
   color: rgb(29, 87, 97);
+  /* border: 5px solid black; */
 
   /* Centering the bodsy */
   margin: 0 auto;
-  max-width: 55em;
+  max-width: 55rem;
 }
 
 section {
   margin-bottom: 10rem;
 }
 
+hr {
+  border: 3px solid rgb(46, 138, 155);
+}
+
 main {
   text-align: center;
+  margin: 0;
 }
 
 section>h3 {
@@ -29,6 +35,7 @@ section>h3 {
   color: white;
   border-radius: 5px;
   padding: 1.5rem 1rem .5rem 1rem;
+  margin-top: 0;
   margin-bottom: 2rem;
   font-size: 5rem;
   font-weight: bold;
@@ -45,7 +52,7 @@ all anchor links down when targeted and scroll animation */
 }
 
 header {
-  margin: auto;
+  margin: 0 auto;
   padding-top: 70px;
 }
 
@@ -69,7 +76,7 @@ nav li {
 }
 
 nav a {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   display: block;
   text-decoration: none;
   padding: 1em;
@@ -96,6 +103,11 @@ nav a:active {
 /* =============== */
 /* PROFILE SECTION */
 /* =============== */
+
+.profile {
+  margin: 0 0 5rem 0;
+}
+
 header {
   /* Clears floating inside the box container or wrapper */
   display: flow-root;
@@ -240,13 +252,13 @@ div.games {
 
 table {
   margin: 0 auto;
+  width: 100%;
+  height: 12rem;
   /* if margin is not auto but any other value - the box goes to the left - FOLLOW THIS UP */
 }
 
 table td {
   text-align: center;
-  width: 27.5rem;
-  height: 100px;
   border-radius: 5px;
 }
 
@@ -276,7 +288,7 @@ table td {
 
 .joke p {
   background-color: white;
-  width: 50.5rem;
+  /* max=width: 54rem; */
   padding: 2rem;
   margin: 0 auto;
   border-radius: 5px;
@@ -286,11 +298,22 @@ table td {
 /* VIDEO */
 /* ===== */
 
+/* Solution for maintaining iframe in responsive state */
+.iframe-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
 .youtube-video {
-  background-color: white;
-  width: 55rem;
+  border: none;
   border-radius: 5px;
-  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ===== */
@@ -299,24 +322,24 @@ table td {
 
 audio {
   background-color: white;
-  width: 50.5rem;
   margin: 0 auto;
+  width: calc(100% - 4rem);
   /* if margin is not auto but any other value - the box goes to the left - FOLLOW THIS UP */
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 /* ===== */
 /* LIST */
 /* ===== */
 
-details {
+.spoiler details {
   background-color: white;
   border-radius: 5px;
-  width: 53rem;
+  width: 100%;
   margin: 0 auto;
   /* Space at bottom of the page */
-  padding: 1rem 1rem;
+  padding: 1rem 0;
 }
 
 details[open] {
@@ -337,9 +360,10 @@ details summary:hover {
 
 ol {
   background-color: white;
+  list-style-position: inside;
   text-align: left;
   overflow-y: auto;
-  width: 95%;
+  padding: rem;
   height: 80%;
 }
 
@@ -347,7 +371,13 @@ ol {
 /* LOTTIEFILES */
 /* =========== */
 
-.logo-animation {
-  width: 50rem;
+.lottiefiles {
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: -10rem;
+}
+
+lottie-player {
+  max-width: 100%;
   margin: 0 auto;
 }

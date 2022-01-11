@@ -19,6 +19,11 @@ table, th, td {
 }
 
 #profiel-img {
-    width: 117px;
-    height: 250px;
+    width: 234px;
+    height: 500px;
+}
+
+.profiel {
+    justify-content: center;
+    display: flex;
 }

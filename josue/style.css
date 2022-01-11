@@ -1,14 +1,13 @@
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   background-image: url(nba.png) ;
 }
 
 
 
 .kop{
-  
-  background-color: #9933cc;
-  color: #ff0000;
+   background-color: #9933cc;
+  color: #291c1c;
   padding: 20px;
 }
 
@@ -21,9 +20,15 @@ body {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color :#ee1414;
-  color: #23a7be;
+  background-color :#e4a3a3;
+  color: #000000;
   box-shadow: 0 1px 3px rgba(167, 114, 114, 0.12), 0 1px 2px rgba(231, 144, 144, 0.24);
+}
+
+.centreren{
+   display: flex;
+   justify-content: center;
+   height: 500px;;
 }
 
 .menu li:hover {
@@ -48,8 +53,8 @@ body {
 }
 
 #myHeader {
-  background-color: lightblue;
-  color: rgb(209, 131, 131);
+  background-color: rgb(168, 179, 153);
+  color: rgb(8, 151, 218);
   padding: 40px;
   text-align: center;
 } 
@@ -57,13 +62,14 @@ body {
 .head>
  .style>
   table, th, td {
-    border: 10px solid rgb(204, 70, 110);
+    border: 10px solid rgb(90, 62, 70);
     color: rgb(255, 6, 6);
   }
   
   table {
     width: 100%;
   }
-.n3VNCb{
+.detail{
   animation: both;
+  color: #ee1414;
 } 

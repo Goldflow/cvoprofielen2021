@@ -28,6 +28,7 @@ body {
 .centreren{
    display: flex;
    justify-content: center;
+   height: 500px;;
 }
 
 .menu li:hover {

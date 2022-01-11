@@ -1,0 +1,22 @@
+
+h1 {
+   color: rgb(255, 81, 0);
+    background-color: brown;
+}
+p {
+    color: #fba1b2;
+}
+p.solid {border-style: solid;}
+
+body{
+    background-color: rgb(150, 10, 10);
+}
+img:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+
+
+        table, th, td {
+            border: brown;
+        }

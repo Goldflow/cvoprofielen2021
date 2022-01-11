@@ -1,18 +1,383 @@
+/* ============ */
+/* GLOBAL STYLE */
+/* ============ */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(230, 230, 230);
+  color: rgb(29, 87, 97);
+  /* border: 5px solid black; */
+
+  /* Centering the bodsy */
+  margin: 0 auto;
+  max-width: 55rem;
 }
 
-#profiel-img {
-  width: 150px;
-  height: 200px;
-  float: left;
-  margin-right: 20px;
+section {
+  margin-bottom: 10rem;
 }
 
-#hobbies li {
-  margin-left: 170px;
+hr {
+  border: 3px solid rgb(46, 138, 155);
 }
 
-#naam {
+main {
+  text-align: center;
+  margin: 0;
+}
+
+section>h3 {
+  background-color: rgb(214, 214, 214);
+  color: white;
+  border-radius: 5px;
+  padding: 1.5rem 1rem .5rem 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+/* ====================== */
+/* NAVIGATION BAR STYLING */
+/* ====================== */
+
+/* For a fixed navbar this will shift (compensate for nav height)
+all anchor links down when targeted and scroll animation */
+[id] {
+  scroll-margin-top: 80px;
+}
+
+header {
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.navbar {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: rgb(46, 138, 155);
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav li {
+  list-style-type: none;
+  transition: all .2s ease-in-out;
+}
+
+nav a {
+  /* box-sizing: border-box; */
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  font-weight: 600;
+  color: rgb(230, 230, 230);
+  border-bottom: 3px solid transparent;
+  transition: all .1s ease-in-out;
+}
+
+nav li:hover {
+  background-color: rgb(37, 110, 122);
+}
+
+nav a:hover {
+  border-bottom: 3px solid rgb(29, 87, 97);
+}
+
+nav li:active,
+nav a:active {
+  background-color: rgb(71, 175, 194);
+  color: rgb(29, 87, 97);
+}
+
+/* =============== */
+/* PROFILE SECTION */
+/* =============== */
+
+.profile {
+  margin: 0 0 5rem 0;
+}
+
+header {
+  /* Clears floating inside the box container or wrapper */
+  display: flow-root;
+}
+
+header h2 {
+  color: rgb(57, 57, 82);
+  font-size: 1.5rem;
+  font-weight: bold;
   display: inline;
+}
+
+header h3 {
+  background-color: transparent;
+  color: rgb(29, 87, 97);
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+header section>img {
+  float: left;
+  margin-right: 2rem;
+  max-width: 10rem;
+  background-color: rgb(79, 79, 112);
+  border: 3px solid rgb(79, 79, 112);
+  transition: all 2s;
+}
+
+header ul li {
+  list-style-position: inside;
+}
+
+.art-link {
+  text-decoration: none;
+  background-color: rgb(79, 79, 112);
+  color: white;
+  padding-inline: 5px;
+  border-radius: 3px;
+}
+
+.art-link:hover {
+  background-color: rgb(255, 103, 149);
+}
+
+.rotate {
+  position: relative;
+  top: .3rem;
+  width: 1.5rem;
+  margin-inline: .2rem;
+  animation: rotation 10s infinite linear;
+}
+
+.rotate:hover {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* ======================= */
+/* MULTIPLE IMAGES SECTION */
+/* ======================= */
+
+/* Scrollable background with title */
+
+div h3[id] {
+  padding-top: 1.5rem;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  font-size: 5rem;
+}
+
+div.books {
+  background-image: url(files/books-banner.jpg);
+}
+
+div.food {
+  background-image: url(files/food-banner.jpg);
+}
+
+div.games {
+  background-image: url(files/games-banner.jpg);
+}
+
+div.books,
+div.food,
+div.games {
+  min-height: 120px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+/* Images styling */
+
+.img-collection {
+  text-align: center;
+}
+
+.img-collection ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.img-collection li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.img-collection img {
+  max-height: 15rem;
+  max-width: 17rem;
+  margin: .4rem;
+
+  filter: grayscale(.5);
+  box-shadow: 0px 5px 5px #b3b3b3;
+  transition: all .3s ease-in-out;
+}
+
+.img-collection img:hover {
+  filter: grayscale(0);
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 5px #b3b3b3;
+}
+
+/* ===== */
+/* TABLE */
+/* ===== */
+
+table {
+  margin: 0 auto;
+  width: 100%;
+  height: 12rem;
+  /* if margin is not auto but any other value - the box goes to the left - FOLLOW THIS UP */
+}
+
+table td {
+  text-align: center;
+  border-radius: 5px;
+}
+
+.color1 {
+  background-color: rgb(219, 189, 161);
+  color: rgb(148, 128, 110);
+}
+
+.color2 {
+  background-color: rgb(46, 138, 155);
+  color: rgb(29, 87, 97);
+}
+
+.color3 {
+  background-color: rgb(63, 55, 95);
+  color: rgb(116, 102, 172);
+}
+
+.color4 {
+  background-color: rgb(211, 79, 116);
+  color: rgb(139, 53, 78);
+}
+
+/* ===== */
+/* A JOKE */
+/* ===== */
+
+.joke p {
+  background-color: white;
+  /* max=width: 54rem; */
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/* ===== */
+/* VIDEO */
+/* ===== */
+
+/* Solution for maintaining iframe in responsive state */
+.iframe-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.youtube-video {
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ===== */
+/* AUDIO */
+/* ===== */
+
+audio {
+  background-color: white;
+  margin: 0 auto;
+  width: calc(100% - 4rem);
+  /* if margin is not auto but any other value - the box goes to the left - FOLLOW THIS UP */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* ===== */
+/* LIST */
+/* ===== */
+
+.spoiler details {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  /* Space at bottom of the page */
+  padding: 1rem 0;
+}
+
+details[open] {
+  height: 25rem;
+}
+
+details summary {
+  color: rgb(57, 57, 82);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 auto;
+
+}
+
+details summary:hover {
+  cursor: pointer;
+}
+
+ol {
+  background-color: white;
+  list-style-position: inside;
+  text-align: left;
+  overflow-y: auto;
+  padding: rem;
+  height: 80%;
+}
+
+/* =========== */
+/* LOTTIEFILES */
+/* =========== */
+
+.lottiefiles {
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: -10rem;
+}
+
+lottie-player {
+  max-width: 100%;
+  margin: 0 auto;
 }

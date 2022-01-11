@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baraa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
-    <!--
-        to do
-        - foto naast info block
-        - lees profiel opdracht nog eens
-    -->
+
     <h1>Profiel Baraa</h1>
 
     <div class="img">
-        <div>
-            <img src="img/profielfoto.png" alt="">
+        <div class="profile-photo">
+            <img class="img-display" src="img/profielfoto.png" alt="">
+            <img class="img-none"
+                src="https://th.bing.com/th/id/R.7fea2ff396d03910919159cd6f1b9ccb?rik=x6nFiW6QD53u4w&pid=ImgRaw&r=0"
+                alt="">
         </div>
         <div class="info">
             <p> Naam: <span>Harmoush</span></p>
@@ -29,56 +30,76 @@
 
     </div>
 
+    <div class="table">
+        <Table>
+            <caption>
+                <h2>Favoriete Dingen</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Games </th>
+                    <th>Hobbies </th>
+                    <th>TV Shows </th>
+                    <th>Zanger</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Free Fire </td>
+                    <td> zwemmen </td>
+                    <td> The Walking Dead </td>
+                    <td> Kadim Al Sahir </td>
+                </tr>
+                <tr>
+                    <td> FIFA </td>
+                    <td> Schaken </td>
+                    <td> Money Heist </td>
+                    <td> George El Rassi </td>
+                </tr>
+            </tbody>
 
-    <!-- <table>
-        <thead>
-            <tr>
-                <th>Hobby</th>
-                <th>zanger</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Schaken</td>
-                <td>Lezen</td>
-                <td>zwemmen</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
+        </Table>
+    </div>
 
-    </table> -->
 
-    <h3><span> Mijn Favoriete eten</span> </h3>
+    <h3> <span> Mijn Favoriete eten</span> </h3>
 
     <div class="img">
         <div>
-            <img src="img/arabic-rice_6880.jpg" width="27%" height="30%" alt="">
+            <h4> The Arabic Rice </h4>
+            <img src="img/arabic-rice_6880.jpg" alt="">
         </div>
         <div>
-            <img src="img/drizzle1-720x405.jpg" width="27%" height="30%" alt="">
+            <h4> The Syrian Cheese Sweet</h4>
+            <img src="img/drizzle1-720x405.jpg"  alt="">
         </div>
     </div>
+
+    <hr>
+
     <div class="iframe">
-        <div >
-            <audio controls>
-                <source src="img/Larry - Goosebumps (Clip officiel) ft. Hamza.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
+        <div>
+            <audio >
+                <source src="img/larry_one_mp3.mp3" type="audio/mpeg">
             </audio>
-
         </div>
 
         <div>
-            <iframe width="340" height="231" src="https://www.youtube.com/embed/Oyx3xkdi4uw"
-                title="YouTube video player" frameborder="5" autoplay mute allow="accelerometer;
-            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/1rfrfSU8GWc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 
+    <div class="joke">
+        <h5>
+            A joke
+        </h5>
+        <p>
+            <b>
+                Forgetting is something beautiful , but if you forget a password
+                <br> let beauty helps you......
+            </b>
+        </p>
+    </div>
 
 </body>
 

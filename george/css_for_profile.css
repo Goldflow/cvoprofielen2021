@@ -15,17 +15,24 @@ h3 {
 }
 #weeb {
     color: white;
-    
     font-size: 30px;
 }
+
 video {
-    width: 800px;
-    height: 500px;
+    width: 70%;
+    height: auto;
+    bottom:200px;
+    right: -30%;
+    position: relative;
 }
 .website {
     font-size: x-large;
     color: white;
-    
+    text-decoration: line-through;
+}
+.new {
+    font-size: x-large;
+    color: white;
 }
 .dota {
     color: white;
@@ -60,7 +67,7 @@ body {
 .onlangs {
     color: white;
     font-size: x-large;
-    
+    list-style-type: none;    
 }
 table {
     color: white;
@@ -95,3 +102,30 @@ li > h1 {
     color: green;
     text-align: center;
 }
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+.profileimg {
+    width: 349px;
+    height: 349px;
+    position: relative;
+
+}
+.after {
+    padding: 6px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px;
+    margin: 3px;
+    border: 10px;
+    opacity: 0%;
+}
+.after:hover {
+    opacity: 100%;
+}
+
+
+

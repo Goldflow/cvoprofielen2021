@@ -28,7 +28,11 @@ video {
 .website {
     font-size: x-large;
     color: white;
-    
+    text-decoration: line-through;
+}
+.new {
+    font-size: x-large;
+    color: white;
 }
 .dota {
     color: white;

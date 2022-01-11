@@ -13,12 +13,7 @@ h2 {
 }
 
 
-h3 {
-  position: relative;
-  left: 40%;
-  color: aqua;
-  font-size: 40px;
-}
+
 
 h4 {
   font-size: 30px;
@@ -47,7 +42,12 @@ span {
   color: aqua;
   border: 3px solid #f56a6a;
   background-image: url("foto-sander-claasen-1024x683.jpg");
-  font-size: large;
+}
+
+h3 {
+  text-align: center;
+  color: aqua;
+  font-size: 40px;
 }
 
 img {

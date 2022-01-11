@@ -22,5 +22,35 @@ table, th, td {
    -webkit-transform: scaleX(-1);
    transform: scaleX(-1);
  }
- img src="b20.jfif" alt="">
-</a>"
+ 
+
+.abcd{
+  display: flex;
+  justify-content: center;
+}
+.azer{
+  display: flex;
+  justify-content: center;
+}
+.trend{
+  display: flex;
+  justify-content: center;
+}
+.tekst{
+  display: flex;
+  justify-content: center;
+}
+.son{
+  display: flex;
+  justify-content: center;
+}
+body{
+  color: cornflowerblue;
+}
+h2 {
+  text-decoration: overline;
+}
+.tab{
+  display: flex;
+  justify-content: center;
+}

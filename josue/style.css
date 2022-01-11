@@ -1,14 +1,13 @@
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   background-image: url(nba.png) ;
 }
 
 
 
 .kop{
-  
-  background-color: #9933cc;
-  color: #ff0000;
+   background-color: #9933cc;
+  color: #291c1c;
   padding: 20px;
 }
 
@@ -21,9 +20,14 @@ body {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color :#ee1414;
-  color: #23a7be;
+  background-color :#e4a3a3;
+  color: #000000;
   box-shadow: 0 1px 3px rgba(167, 114, 114, 0.12), 0 1px 2px rgba(231, 144, 144, 0.24);
+}
+
+.centreren{
+   display: flex;
+   justify-content: center;
 }
 
 .menu li:hover {
@@ -64,6 +68,7 @@ body {
   table {
     width: 100%;
   }
-.n3VNCb{
+.detail{
   animation: both;
+  color: #ee1414;
 } 

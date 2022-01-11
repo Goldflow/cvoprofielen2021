@@ -28,7 +28,11 @@ video {
 .website {
     font-size: x-large;
     color: white;
-    
+    text-decoration: line-through;
+}
+.new {
+    font-size: x-large;
+    color: white;
 }
 .dota {
     color: white;
@@ -109,17 +113,13 @@ ul {
     position: relative;
 
 }
-
-
-
-
 .after {
-    padding: 10px;
+    padding: 6px;
     position: absolute;
     top: 0px;
     left: 0px;
     border: 1px;
-    margin: 1px;
+    margin: 3px;
     border: 10px;
     opacity: 0%;
 }

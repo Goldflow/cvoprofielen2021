@@ -141,3 +141,9 @@ p {
     transform: scaleX(-1);
   }
 
+  .ada {
+
+    justify-content: center;
+    display: flex;
+    
+  }

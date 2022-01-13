@@ -1,9 +1,12 @@
-img.profiel {width: 200px; }
+body {display:flex; justify-content:center; background-image:url("animebackground.jpg"); background-repeat: no-repeat; background-size: cover;}
+img {width: 200px; cursor: pointer; filter: grayscale(100%);transition:0.5s;}
+img:hover {filter: grayscale(0%);}
 video.vid { width:300px}
-p.bold {font-weight: bold;}
-table, th, td {border: 1px solid black; }
-body {background-color:aliceblue;}
-h1 {background-color: black; color:whitesmoke; font-size: 70px; padding:20px; width: 400px}
-div {background-color: teal; width: 600px}
+.bold {font-weight: bold;}
+table, th, td {border: 1px solid black; background-color: lightseagreen;}
+h1 {background-color: black; color:whitesmoke; font-size: 70px; padding:30px; width: 400px}
+.color {background-color: teal; width: 600px}
 th {background-color: rebeccapurple; color: seashell;}
 td {background-color: silver;}
+.list {background-color:lightseagreen;}
+.media {display:flex; justify-content:space-around}

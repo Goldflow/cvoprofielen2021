@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(67, 98, 107);
+}
+
+h1 {
+  position: relative;
+  left: 40%;
+  color: #f56a6a;
+}
+
+h2 {
+  background-color: antiquewhite;
+}
+
+
+
+
+h4 {
+  font-size: 30px;
+  color: #f56a6a;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+}
+
+td,
+th {
+  border-style: solid;
+  border-color: coral;
+  background-color: darkgrey;
+}
+
+div table {
+  margin-left: 35px;
+}
+
+
+
+span {
+  color: aqua;
+  border: 3px solid #f56a6a;
+  background-image: url("foto-sander-claasen-1024x683.jpg");
+}
+
+h3 {
+  text-align: center;
+  color: aqua;
+  font-size: 40px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border: 5px solid chocolate;
+  justify-content: space-between;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.img-none {
+  display: none;
+}
+.img-none:hover  {
+  display: block;
+}
+
+/* .img-dispay:hover .img-none {
+  display: block;
+} */
+
+.iframe {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.table {
+  background-color: aqua;
+  width: fit-content;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding: 30px;
+  cursor: grab;
+  filter: grayscale(0);
+  transition: filter 0.5s;
+}
+
+.table:hover {
+  filter: grayscale(1);
+
+}
+
+.joke {
+  background-color: rgb(100, 100, 184);
+  width: fit-content;
+  padding: 8px;
+  margin-left: 20px;
+}
+.info {
+  background-color: #f2f2f2;
+  width: 50%;
+  background-image: url("foto-sander-claasen-1024x683.jpg");
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid rgba(255, 0, 0, 0.527);
+  transform: scale(1) rotate3d(1,1,1, 0deg) ;
+  transition: all 1s;
+}
+
+.info:hover {
+  transform: scale(1.7) rotate3d(1,1,1, 360deg) ;
+}
+
+
+
+
+
+
+
+
+
+
+/* .profile-photo {
+  transform: scale(1) rotate3d(1,1,1, 0deg) ;
+  transition: all 1s;
+} */
+/* .profile-photo:hover {
+  transform: rotate3d(1,1,1, 360deg) scale(1.5);
+  mask-image: url();
+} */

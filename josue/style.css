@@ -53,8 +53,8 @@ body {
 }
 
 #myHeader {
-  background-color: lightblue;
-  color: rgb(209, 131, 131);
+  background-color: rgb(168, 179, 153);
+  color: rgb(8, 151, 218);
   padding: 40px;
   text-align: center;
 } 
@@ -62,7 +62,7 @@ body {
 .head>
  .style>
   table, th, td {
-    border: 10px solid rgb(204, 70, 110);
+    border: 10px solid rgb(90, 62, 70);
     color: rgb(255, 6, 6);
   }
   

@@ -17,62 +17,6 @@ img:hover{
 }
 
 
-        
-
-        table.customTable {
-
-            width: 20%;
-            background-color: #FFFFFF;
-            border-collapse: collapse;
-            border-width: 2px;
-            border-color: #000000;
-            border-style: solid;
-            color: #000000;
-          }
-
-          table.customTable td, table.customTable th {
-
-            border-width: 2px;
-            border-color: #000000;
-            border-style: solid;
-            padding: 4px;
-          
-          }
-          
-          table.customTable thead {
-          
-            background-color: #ffffff;
-          
-          }
-
-          .center {
-
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-            
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            
-            }
-            h3 {
-
-                text-align: center;
-                font-family: 'Poppins', sans-serif; 
-                
-                }
-          
-                 li{
-
-                    text-align: center;
-                    font-family: 'Poppins', sans-serif; 
-                    
-                    }
-                    .kip{
-
-                        text-align: center;
-                        font-family: 'Poppins', sans-serif; 
-                        
-                        }
+        table, th, td {
+            border: brown;
+        }

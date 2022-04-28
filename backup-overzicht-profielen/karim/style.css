@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-style span {
+    color: blue;
+}
+
+.profiel-lijst {
+    font-weight: bold;
+}
+
+.profiel-lijst a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.niet-goed a {
+    color: gray;
+    font-weight: normal;
+    font-style: italic;
+}

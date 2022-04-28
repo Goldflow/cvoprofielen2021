@@ -20,3 +20,8 @@ a.niet-goed {
     font-weight: normal;
     font-style: italic;
 }
+
+.flex {
+    display: flex;
+    justify-content: center;
+}

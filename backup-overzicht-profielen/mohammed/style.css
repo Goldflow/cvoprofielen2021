@@ -1,0 +1,54 @@
+
+table, th, td {
+    border:1px solid black;
+  }
+
+  img {
+      width: 400px;
+      height: 200px;
+  }
+
+  img + img {
+      width: 400px;
+      height: 200px;
+  }
+
+.hobby {
+    display: flex; 
+    justify-content:space-around
+}
+
+#profiel-img {
+    width: 234px;
+    height: 500px;
+}
+
+.profiel {
+    justify-content: center;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+ 
+  li {
+    float: left;
+  }
+ 
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  li a:hover {
+    background-color: #111;
+  }
+

@@ -1,0 +1,44 @@
+h1 {
+    background-color: darkorchid;
+}
+
+.fotos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotos img {
+ width: 300px;
+ height: 185px;
+}
+
+.barbie {
+    cursor: crosshair;
+    filter: grayscale(0);
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition: filter 0.5s;
+}
+
+img:hover {
+    filter: grayscale(0);
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h1:hover {
+    filter: blur(1px);
+}
+
+img {
+    transition: all 1s;
+}
+
+.barbie:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+    filter: grayscale(1);
+}

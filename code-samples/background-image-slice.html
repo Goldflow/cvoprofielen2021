@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>slice an image</title>
+    <link rel="stylesheet" href="../simple.css">
 </head>
+
 <body>
-   
+    <header>
+        <h1>hoe enkel een deel van de afbeelding te gebruiken</h1>
+    </header>
+    <main>
+        <h2>Enkel een deel van de foto:</h2>
+        <p>wat je moet doen (zie code - F12)
+        <ul>
+            <li>
+                background-image instellen door url mee te geven
+            </li>
+            <li>
+                background-position aanpassen, je kan pixels gebruiken om positie te bepalen
+            </li>
+            <li>
+                width & height mee te geven om te kiezen hoeveel je wil tonen van de afbeelding
+            </li>
+        </ul>
+        </p>
+        <style>
+            .pizza-slice {
+                background-image: url(pizza.jpg);
+                width: 500px;
+                height: 123px;
+                background-size: 672px;
+                background-position: 38px;
+            }
+        </style>
+        <div class="pizza-slice"></div>
+        <hr>
 
-    <h2>Enkel een deel van de foto:</h2>
-<p>wat je moet doen (zie code - F12)
-    <ul>
-        <li>
-            background-image instellen door url mee te geven
-        </li>
-        <li>
-            background-position aanpassen, je kan pixels gebruiken om positie te bepalen
-        </li>
-        <li>
-            width & height mee te geven om te kiezen hoeveel je wil tonen van de afbeelding
-        </li>
-    </ul>
-</p>
-    <style>
-        .pizza-slice {
-    background-image: url(pizza.jpg);
-    width: 500px;
-    height: 123px;
-    background-size: 672px;
-    background-position: 38px;
-}
-    </style>
-    <div class="pizza-slice"></div>
-    <hr>
-
-    <h2>originele foto:</h2>
-    <img src="pizza.jpg" alt="">
+        <h2>originele foto:</h2>
+        <img style="width:500px" src="pizza.jpg" alt="">
+    </main>
 </body>
+
 </html>
